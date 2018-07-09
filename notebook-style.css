@@ -1,0 +1,166 @@
+/*
+Placeholder for custom user CSS
+mainly to be overridden in profile/static/custom/custom.css
+This will always be an empty file in IPython
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('http://fonts.googleapis.com/css?family=Kameron');
+@import url('http://fonts.googleapis.com/css?family=Lato:200');
+@import url('http://fonts.googleapis.com/css?family=Lato:300');
+@import url('http://fonts.googleapis.com/css?family=Lato:400');
+
+
+/* Change code font */
+.CodeMirror pre {
+    font-family: Monaco !important;
+    font-size: 9pt !important;
+}
+
+div.output pre{
+    font-family: Monaco !important;
+    font-size: 9pt !important;
+}
+
+div.output_html td{
+    font-family: Monaco !important;
+    font-size: 8pt !important;
+}
+
+div.prompt{
+    font-family: Monaco !important;
+    font-size: 8pt !important;
+}
+
+div.completions select{
+    font-family: Monaco !important;
+    font-size: 9pt !important;
+}
+
+div.container pre{
+    font-family: Monaco !important;
+    font-size: 9pt !important;
+}
+
+div.tooltiptext pre{
+    font-family: Monaco !important;
+    font-size: 8pt !important;
+}
+
+div.input_area {
+    border-color: rgba(0,0,0,0.10) !important;
+    background: rbga(0,0,0,0.5) !important;
+}
+
+div.text_cell {
+    max-width: 105ex !important; /* instead of 100%, */
+}
+
+div.text_cell_render {
+    font-family: lato !important;
+    font-size: 11pt !important;
+    line-height: 145% !important; /* added for some line spacing of text. */
+}
+
+div.text_cell_render code{
+    font-family: Monaco !important;
+    font-size: 9pt !important;
+}
+
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+    font-family: lato, 'HelveticaNeue-Light' !important;
+    font-weight: 300 !important;
+}
+
+div.text_cell_render h1 {
+    font-size: 24pt !important;
+}
+
+div.text_cell_render h2 {
+    font-size: 18pt !important;
+}
+
+div.text_cell_render h3 {
+    font-size: 14pt !important;
+}
+
+.rendered_html pre,
+.rendered_html code {
+    font-size: medium !important;
+}
+
+.rendered_html ol {
+    list-style:decimal !important;
+    margin: 1em 2em !important;
+}
+
+.prompt.input_prompt {
+    color: rgba(0,0,0,0.5) !important;
+}
+
+.cell.command_mode.selected {
+    border-color: rgba(0,0,0,0.1) !important;
+}
+
+.cell.edit_mode.selected {
+    border-color: rgba(0,0,0,0.15) !important;
+    box-shadow: 0px 0px 5px #f0f0f0 !important;
+    -webkit-box-shadow: 0px 0px 5px #f0f0f0 !important;
+}
+
+div.output_scroll {
+    -webkit-box-shadow: inset 0 2px 8px rgba(0,0,0,0.1) !important;
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.1) !important;
+    border-radious: 2px !important;
+}
+
+#menubar .navbar-inner {
+    background: #fff !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: none !important;
+    font-family: lato !important;
+    font-weight: 400 !important;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border: none !important;
+}
+
+div#notebook_panel {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-top: none !important;
+}
+
+div#notebook {
+    border-top: 1px solid rgba(0,0,0,0.15) !important;
+}
+
+#menubar .navbar .navbar-inner,
+.toolbar-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#checkpoint_status,
+#autosave_status {
+    color: rgba(0,0,0,0.5) !important;
+}
+
+#header {
+    font-family: lato !important;
+}
+
+#notebook_name {
+    font-weight: 200 !important;
+}
